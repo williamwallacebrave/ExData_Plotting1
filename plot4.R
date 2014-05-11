@@ -2,6 +2,8 @@
 # ------------------------------
 # get filtered data for the plot
 # ------------------------------
+# this script uses external script that ships get_data
+# functions which fetches data needed for the plot
 source("get_data.R")
 table_data <- get_data()
 
